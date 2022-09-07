@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mrg",
+				"margin-top\tproperty"
+			],
+			[
+				"btnf",
+				"btn-info \tBootstrap 3 Class"
+			],
+			[
+				"cir",
+				"img-circle \tBootstrap 3 Class"
+			],
+			[
+				"conta",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"form",
+				"form-horizontal \tBootstrap 3 Class"
+			],
+			[
+				"bt",
+				"btn-default \tBootstrap 3 Class"
+			],
+			[
+				"tent",
+				"Tentative"
+			],
+			[
+				"com",
+				"compteur"
+			],
+			[
+				"te",
+				"innerText"
+			],
+			[
+				"col",
+				"col-md-4 \tBootstrap 3 Class"
+			],
+			[
+				"col-xs",
+				"col-xs-push-4 \tBootstrap 3 Class"
+			],
+			[
+				"col-md",
+				"col-md-push-4 \tBootstrap 3 Class"
+			],
+			[
+				"con",
+				"container-fluid \tBootstrap 3 Class"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"aler-",
+				"alert-warning \tBootstrap 3 Class"
+			],
+			[
+				"inf",
+				"alert-info \tBootstrap 3 Class"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"col-md-offse",
+				"col-md-offset-4 \tBootstrap 3 Class"
+			],
+			[
+				"push",
+				"col-lg-push-2 \tBootstrap 3 Class"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"border",
+				"border-left\tproperty"
+			],
+			[
+				"nav",
+				"navbar-nav"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"h",
+				"hidden\toverflow"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"blo",
+				"inline-block\tdisplay"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"pla",
+				"play_f"
+			],
+			[
+				"stop",
+				"stop_btn"
+			],
+			[
+				"heu",
+				"heure_f"
+			],
+			[
+				"canv",
+				"canv"
+			],
+			[
+				"line",
+				"lineaire2"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"strok",
+				"strokeStyle"
+			],
+			[
+				"str",
+				"strokeStyle"
+			],
+			[
+				"move",
+				"moveTo"
+			],
+			[
+				"ca",
+				"canv"
+			],
+			[
+				"canvas",
+				"canvas1"
+			],
+			[
+				"cn",
+				"canvas\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"scr",
+				"screen"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"c",
+				"classp"
+			],
+			[
+				"tab",
+				"tabattaq"
+			],
+			[
+				"fu",
+				"fusion"
+			],
+			[
+				"ta",
+				"tabmilieu"
+			],
+			[
+				"p",
+				"prenom"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"s",
+				"saisir"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"browser",
+				"View In Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 158.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ramos/Desktop/cours/Dev Web/miniprojet/style.css",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/miniprojet/accueil.html",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/correction tp2.html",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/javascript - exercice3.html",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/javascript tp1.html",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/jeu chance.html",
+		"/D/dev/formulaire.html",
+		"/C/Users/Ramos/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Ramos/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Ramos/Desktop/cours/Dev Web/tp5/cv.html",
+		"/C/Users/Ramos/AppData/Local/Temp/Rar$EXa2828.35595/cv.html",
+		"/C/Users/Ramos/Desktop/cours/Séance 1 Dev Web/correction tp2.html",
+		"/C/Users/Ramos/Desktop/cours/Séance 1 Dev Web/tp1.html",
+		"/C/Users/Ramos/Desktop/cours/Séance 1 Dev Web/tp3.html",
+		"/C/Users/Ramos/Desktop/dev/formation javascript.html",
+		"/C/Users/Ramos/Desktop/dev/pratique.html",
+		"/C/Users/Ramos/Desktop/dev/compteur.html",
+		"/C/Users/Ramos/Desktop/dev/formulaire.html",
+		"/C/Users/Ramos/Desktop/pratique.html",
+		"/C/Users/Ramos/Desktop/creation objet.html",
+		"/C/Users/Ramos/Desktop/canvas.html",
+		"/C/Users/Ramos/Desktop/formation javascript.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "accueil.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
