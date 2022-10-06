@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Accueil</title>
+	  <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!--<script src="https://cdnjs.16.0/umd/popper.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  
+</head>
+
+<body>
+
+		<header class="container-fluid ">
+		<div class="container-fluid">
+		<nav class="navbar navbar-expand-md b-dark navbar-dark fixed-top" style="height: 60px;background-color: #dc3545">
+	  <a class="navbar-brand" href="#"><img src="img/logo2.png" class="rounded-circle" height="80px"  width="80px"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNav">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link active" href="#">Accueil</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="lecovid19.html">le covid 19 ?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="situation.html">situation en tunisie</a>
+	      </li>    
+	      <li class="nav-item">
+	        <a class="nav-link" href="protege.html">Protégez-vous</a>
+	      </li>   
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Initiatives cotoyennes</a>
+	      </li>   
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html">Contact</a>
+	      </li>   
+	    </ul>
+	  </div>  
+
+				  <form  class="form-inline">
+				    <input id="search" class="form-control " type="text" placeholder="Rechercher">
+				    <input class="btn btn-light" type="submit" id="validersearch" value="valider">
+			     </form> 
+
+	</nav>
+	</div>
+
+	<div id="menubar" class="row">
+			<p class="col-10">Pour plus d'informations ou pour déclarer un cas d'infection, <span class="alert-danger">appelez le numéro vert  80 10 19 19 </span><em class="fas fa-phone"></em> </p>	
+			<div class="col-2">
+			<a href="#"><img src="img/fb.jpg" height="25px"> </a>
+			<a href="#"><img src="img/twit.png" height="20px" ></a>
+			<a href="#"><img src="img/inst.jpg" height="20px" ></a>
+			</div>
+		</div>
+
+		</header>
+
+		<div>
+			<section class="jumbotron shadow p-3  rounded">
+					<article class="row " >
+						<div class="col-6 ">
+						<h1 class="mb-5 text-center">Coronavirus à l'instant !</h1>
+
+						<h2>Nombre de cas avérés <span class="badge bg-warning text-dark"> 90213 </span></h2>
+						<h2>Nombre de décès  <span class="badge bg-danger">2935</span> </h2>
+						<h2>Nombre de personnes rétablies  <span class="badge bg-success">65303</span></h2>
+
+						<div class="mt-4">
+						<button class="btn btn-dark ">inscrivez-vous <span class="fas fa-pencil-alt	"></span></button>
+						<button class="btn btn-info ">Posez votre question en ligne ! <span class="fas fa-tasks"></span></button>
+							
+						</div>
+					
+						</div>
+						<img class="col-6 rounded-circle img-fluid " id="imgtete" src="img/header.webp" />
+					</article>
+					
+			</section>
+			<section>
+				<div class="row">
+					<div id="log" class="col-8 offset-2" style="padding: 5px">
+
+						<form class="form-inline" action="">
+						  <label for="email" class="mr-sm-2"><span class="group"></span>Email address:</label>
+						  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
+						  <label for="pwd" class="mr-sm-2">Password:</label>
+						  <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" minlength="8" id="pwd">
+						  <div class="form-check mb-2 mr-sm-2">
+						    <label class="form-check-label">
+						      <input class="form-check-input" type="checkbox"> Souviens de moi
+						    </label>
+						  </div>
+						  <button type="submit" id="cnx" class="btn btn-dark mb-2">Connecter</button>
+
+
+
+						  <div class="modal" tabindex="-1" id="erreur" role="dialog" >
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title">Erreur</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+										  <strong>Erreur</strong> Vous-devez verifier votre login/mot de passe .
+										  
+										</div>
+								      </div>
+								      
+								    </div>
+								  </div>
+								</div>
+						  
+						</form>
+						
+					</div>
+				</div>
+			</section>
+
+			<section class="row">
+					<div class="col-4">
+							<aside >
+								<div class="card  ">
+								<div class="card-header bg-secondary text-light fa fa-star">
+								Articles de la semaine
+							</div>
+
+								<img src="img/side1.jpeg" height="200px" width="398px">
+								<h6>Adaptation saison</h6>
+								<p class="card-text ">
+
+									Les changement de saison sont très sollicitant pour l'organisme: changement d'horaires de luminosité, de température. Le mot d'ordre de cette période? 
+									<button class="btn-sm btn-dark "><small class="fa fa-plus"></small></button>
+								</p>
+	      							</div>
+							</aside>
+
+							<aside >
+      							<div class="card bg-secondary " >
+								  <div class="card-header text-light fas fa-book-open	 ">
+								   
+								    Dernières informations
+								  </div>
+								  <ul class="list-group  list-group-flush">
+								    <li class="list-group-item"><a href="">Bulletin de veille-20 octobre 2020 (ONMNE)</a></li>
+								    <li class="list-group-item"><a href="">Classification des pays</a> </li>
+								    <li class="list-group-item"><a href="">Recommandations aux voyageurs de la Tunisie vers d’autres pays</a></li>
+								    <li class="list-group-item"><a href="">Bulletin de veille-20 Novembre 2020 (ONMNE)</a></li>
+								    <li class="list-group-item"><a href="">Bulletin de veille-20 Décembre 2020 (ONMNE)</a></li>
+								  </ul>
+								</div>
+															
+						</aside>
+					</div>
+				
+				
+
+
+					<div class="col-8">
+					<div class="row">
+						<div class="row row-cols-1 row-cols-md-2 g-4">
+								  <div class="col">
+								    <div class="card">
+								      <img src="img/img7.jpg" class="card-img-top" alt="...">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col">
+								    <div class="card">
+								      <img src="img/img2.jpg" class="card-img-top" alt="...">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col">
+								    <div class="card">
+								      <img src="img/img3.jpeg" class="card-img-top" alt="...">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="col">
+								    <div class="card">
+								      <img src="img/img1.jpg" class="card-img-top" alt="...">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a longer card as a natural lead-in to additional content. This content is a little bit longer.</p>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+					
+				</div>
+									<div style="display: flex;justify-content: center;">
+						
+										<ul class="pagination">
+										  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+										  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+										  <li class="page-item"><a class="page-link" href="#">2</a></li>
+										  <li class="page-item"><a class="page-link" href="#">3</a></li>
+										  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+										</ul>
+									</div>
+			</section>
+
+		</div>
+				
+
+				</div>
+
+
+							<div > <!-- test -->
+					
+					
+					<a href=""  data-toggle="modal" data-target="#exampleModal">  <img class="img-rounded img-responsive" src="img/test2.png" style="position: fixed;bottom: 0px;right: 0px;  width: 100px;"></a>
+				</div>
+
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Voulez-Vous passer un test ?</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true"></span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        			
+
+													<form  id="f1">
+													  <div class="form-group">
+													    <label for="email">Email address</label>
+													    <input type="text" class="form-control"  id="eml" placeholder="name@example.com" >
+													    <p class="alert-warning" id="err" style="display: none"> Vous devez saisir un email valide </p>
+													  </div>
+														
+													  	<div class="alert alert-warning text-center">
+														  <strong>Merci de cocher les bonnes réponses</strong> 
+														</div>
+													  <div class="form-group"> <!-- question 1 -->
+													    <label for="exampleFormControlTextarea1">Maux de téte ?</label>
+													    <div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q1" id="inlineRadio1" value="oui">
+															  <label class="form-check-label" for="inlineRadio1">oui</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q1" id="inlineRadio2" value="non">
+															  <label class="form-check-label" for="inlineRadio2">non</label>
+															</div>
+													  </div>
+													  <div class="form-group"> <!-- question 2 -->
+													    <label for="exampleFormControlTextarea1">Maux du gorge ou toux sèche ?</label>
+													    <div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q2" id="inlineRadio3" value="oui">
+															  <label class="form-check-label" for="inlineRadio3">oui</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q2" id="inlineRadio4" value="non">
+															  <label class="form-check-label" for="inlineRadio4">non</label>
+															</div>
+													  </div>
+													  <div class="form-group"> <!-- question 3 -->
+													    <label for="exampleFormControlTextarea1">Fiévre ?</label>
+													    <div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q3" id="inlineRadio5" value="oui">
+															  <label class="form-check-label" for="inlineRadio5">oui</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q3" id="inlineRadio6" value="non">
+															  <label class="form-check-label" for="inlineRadio6">non</label>
+															</div>
+													  </div>
+													  <div class="form-group"> <!-- question 4 -->
+													    <label for="exampleFormControlTextarea1">Difficultés respiratoires ?</label>
+													    <div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q4" id="inlineRadio7" value="oui">
+															  <label class="form-check-label" for="inlineRadio7">oui</label>
+															</div>
+															<div class="form-check form-check-inline">
+															  <input class="form-check-input" type="radio" name="q4" id="inlineRadio8" value="non">
+															  <label class="form-check-label" for="inlineRadio8">non</label>
+															</div>
+													  </div>
+
+
+													</form>
+
+													<div class="progress"> <!-- progressbar-->
+												  <div id="neg" class="progress-bar bg-success" aria-valuemax="100" style="width:0%">
+												    Négative
+												  </div>
+												  <div id="petre" class="progress-bar bg-warning" aria-valuemax="100" style="width:100%">
+												    Peut-étre
+												  </div>
+												  <div id="pstv" class="progress-bar bg-danger" aria-valuemax="100" style="width:0%">
+												    Positive
+												  </div>
+												</div><!-- progressbar-->
+
+												<span id="resultat" class="alert alert-warning" style="display: none"> Il est recommandé de consulter un médecin</span>
+
+							      </div> <!-- modal-body-->
+							      <div class="modal-footer">
+							        <button type="reset"  class="btn btn-secondary" data-dismiss="modal">Quitter</button>
+							        <button type="reset" id="init" class="btn btn-primary">refaire le test</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+		
+
+		<footer class="text-center">
+			<p><a href="#">Tous droits réservés</a></p>
+			<a href="">Charte de Bonnes Pratiques - </a>
+			<a href="">Conditions Générales d'Utilisation - </a>
+			<a href="">Politique de Confidentialité</a>
+		</footer>
+
+		
+</body>
+
+<script >
+	
+
+
+		var s=$('#search');
+		var mail=$('#email');
+		var log=$('#pwd');
+
+		$("#validersearch").click(function (e) {
+			if (s.val()=='')
+			{e.preventDefault()
+				
+				s.prop('placeholder','veuillez saisir votre recherche');
+				s.css("background-color",'#f7838c');
+				
+				
+			}
+		})
+
+		$("#cnx").click(function (a) {
+			if((mail.val()=='')||(pwd.val()=='')) 
+			{a.preventDefault();
+				console.log("input vide ");
+				$('#erreur').modal('show')
+			}
+				
+
+
+			
+		})
+	
+</script>
+
+<script>
+
+					/*function isEmail(email) {
+					  var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]$/i;
+					  if (regex.test(email)) {
+					  	console.log("ismail");
+					  } 
+					  else
+					  	console.log("non");
+					}*/
+				
+			var m= $("#eml").val();
+			var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
+
+				$(document).ready(function(){
+
+					$("input[type='radio']").prop("disabled",true);
+
+					$("#eml").keyup(function(){
+						
+						if (regex.test($("#eml").val())) {
+					  	console.log("mail ok");
+					  	$("input[name='q1']").prop("disabled",false);
+					  	$("#err").css("display","none");
+
+					  } 
+					  else
+					  	{console.log($("#eml").val());
+					  		$("#err").css("display","block");
+
+					  
+					  	
+					  }
+					
+				});
+				
+					
+
+				});
+				
+				var reponse1 = null;
+				var reponse2 = null;
+				var reponse3 = null;
+				var reponse4 = null;
+					$("input[name='q1']").click(function() {
+					    reponse1 = this.value;
+					    //$(this).prop("disabled", true);
+					    $("input[name='q1']").prop("disabled", true);
+					    $("input[name='q2']").prop("disabled", false);
+
+
+					    if (reponse1=='oui'){
+					    		$("#neg").css('width','0%');
+					    		$("#petre").css('width','+=500');
+					    		$("#pstv").css('width','+=500');
+					    			console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+
+					    }
+					    else if (reponse1=='non') {
+					    		$("#neg").css('width','+=500');
+					    	//	$("#petre").css('width','-=100');
+					    		$("#pstv").css('width','0%'); 
+
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    	}
+
+					});
+
+					$("input[name='q2']").click(function() {
+					    reponse2 = this.value;
+					    $("input[name='q2']").prop("disabled", true);
+					    $("input[name='q3']").prop("disabled", false);
+					    if (reponse2=='oui' && reponse1=='oui'){
+
+					    		$("#neg").css('width','0');
+					    		$("#petre").css('width','+=0');
+					    		$("#pstv").css('width','+=100');
+					    		
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    
+
+					    }
+					    else if (reponse2=='non' && reponse1=='oui') {
+					    		$("#neg").css('width','+=100');
+					    		$("#petre").css('width','-=100');
+					    		$("#pstv").css('width','+=0');
+
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    	
+					    }
+
+					    else if (reponse2=='oui' && reponse1=='non'){
+					    		$("#neg").css('width','+=100');
+					    		$("#petre").css('width','-=000');
+					    		$("#pstv").css('width','+=100');
+
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+
+					    }
+
+					});
+					
+					$("input[name='q3']").click(function() {
+					    reponse3 = this.value;
+					     $("input[name='q3']").prop("disabled", true);
+					    $("input[name='q4']").prop("disabled", false);
+					    
+					    if (reponse3=='oui'){
+
+					    		$("#neg").css('width','+=0');
+					    		$("#petre").css('width','-=100');
+					    		$("#pstv").css('width','+=100');
+console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    		
+
+					    }
+					    else if (reponse3=='non') {
+					    		$("#neg").css('width','+=100');
+					    		$("#petre").css('width','-=0');
+					    		$("#pstv").css('width','-=100');
+
+console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    }
+
+
+					});
+
+
+					$("input[name='q4']").click(function() {
+					    reponse4 = this.value;
+					     $("input[name='q4']").prop("disabled", true);
+					    
+					    console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+					    
+					    if (reponse4=='oui'){
+
+					    		$("#neg").css('width','-=100');
+					    		$("#petre").css('width','-=0');
+					    		$("#pstv").css('width','+=100');
+
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+
+					    }
+					    else if (reponse4=='non') {
+					    		$("#neg").css('width','+=100');
+					    		$("#petre").css('width','+=100');
+					    		$("#pstv").css('width','-=100');
+
+					    		console.log("positive= "+$("#pstv").css("width"));
+					    console.log("negative= "+$("#neg").css("width"));
+
+
+					    }
+						if ($("#pstv").css("width") > $("#neg").css("width") )
+					 {
+					 	$("#resultat").css("display","block");
+					 }
+
+					});
+
+					 $("#init").click(function () {
+					 	$("#eml").val("");
+					 	$("input[type=radio]").prop("disabled", true);
+					 	$("input[type=radio]").prop("checked", false);
+					 	$("#resultat").css("display","none");
+
+					 	$("#neg").css('width','0%');
+					    $("#petre").css('width','100%');
+					    $("#pstv").css('width','0');
+					 })
+					 
+					 
+
+			
+					
+
+					
+
+					
+
+</script>
+
+</html>
